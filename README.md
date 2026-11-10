@@ -1,17 +1,17 @@
-# Rebeka | Mega Hair - Landing Page & Bio Link de Luxo ✨
+# Rebeka Márcia | Mega Hair - Landing Page & Bio Link de Luxo ✨
 
-Website moderno, responsivo e de alto padrão desenvolvido especialmente para **Rebeka | Mega Hair**, inspirado em landing pages de estética e beleza de luxo (mobile-first).
+Website moderno, responsivo e de alto padrão desenvolvido especialmente para **Rebeka Márcia | Mega Hair**, inspirado em landing pages de estética e beleza de luxo (mobile-first).
 
 ---
 
 ## 📸 Estrutura Visual
 
-- **Hero:** Foto em destaque externa (palmeiras e cachos) com degradê escuro contínuo, tipografia clássica serifada de alto impacto e descrição profissional.
+- **Hero:** Foto em destaque externa (palmeiras e cachos) com degradê escuro contínuo, tipografia clássica serifada de alto impacto ("Rebeka Márcia") e texto de apresentação real da profissional.
 - **Card 1 - Agendamento:** Foto executiva aproximada (sem sobra de fundo branco) com direcionamento direto para agendamento no WhatsApp.
-- **Card 2 - Procedimentos:** Foto comparativa real (Antes e Depois) demonstrando o resultado das extensões de Mega Hair.
-- **Card 3 - Localização:** Card focado no espaço de atendimento e localização exclusiva com direcionamento para o WhatsApp / Mapa.
+- **Card 2 - Procedimentos:** Foto comparativa real (Antes e Depois) demonstrando o resultado das extensões de Mega Hair com direcionamento para WhatsApp.
+- **Card 3 - Localização:** Card focado no espaço físico (Praça Santa Efigênia, 120 • Santa Efigênia de Minas, MG) com link direto para rota no Google Maps.
 - **Banner Inferior:** Foto em destaque com ferramenta e mechas de extensões e frase elegante ("*Será um prazer cuidar da sua beleza!*").
-- **Rodapé:** Ícones de contato e redes sociais (Localização, WhatsApp e Instagram).
+- **Rodapé:** Ícones de contato e redes sociais (Localização no Google Maps, WhatsApp direto e Instagram).
 
 ---
 
