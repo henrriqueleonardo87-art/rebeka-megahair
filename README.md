@@ -11,7 +11,7 @@ Website moderno, responsivo e de alto padrão desenvolvido especialmente para **
 - **Card 2 - Procedimentos:** Foto comparativa real (Antes e Depois) demonstrando o resultado das extensões de Mega Hair com direcionamento para WhatsApp.
 - **Card 3 - Localização:** Card focado no espaço físico (Praça Santa Efigênia, 120 • Santa Efigênia de Minas, MG) com link direto para rota no Google Maps.
 - **Banner Inferior:** Foto em destaque com ferramenta e mechas de extensões e frase elegante ("*Será um prazer cuidar da sua beleza!*").
-- **Rodapé:** Ícones de contato e redes sociais (Localização no Google Maps, WhatsApp direto e Instagram).
+- **Rodapé:** Ícones de contato e redes sociais (Localização no Google Maps, WhatsApp direto e Instagram oficial `@rebeka_marcia__`).
 
 ---
 
