@@ -6,11 +6,11 @@ Website moderno, responsivo e de alto padrão desenvolvido especialmente para **
 
 ## 📸 Estrutura Visual
 
-- **Hero:** Foto em destaque com gradiente escuro suave, tipografia serifada de alto impacto e descrição profissional.
-- **Card 1 - Agendamento:** Direcionamento direto para WhatsApp com mensagem personalizada para reserva de horários.
-- **Card 2 - Procedimentos:** Destaque para as técnicas de Mega Hair com direcionamento para dúvidas e orçamentos.
-- **Card 3 - Aprenda Comigo:** Espaço dedicado para cursos e mentorias profissionais com foto temático (Rebeka com iPad).
-- **Banner Inferior:** Frase de fechamento elegante ("*Será um prazer cuidar da sua beleza!*").
+- **Hero:** Foto em destaque externa (palmeiras e cachos) com degradê escuro contínuo, tipografia clássica serifada de alto impacto e descrição profissional.
+- **Card 1 - Agendamento:** Foto executiva aproximada (sem sobra de fundo branco) com direcionamento direto para agendamento no WhatsApp.
+- **Card 2 - Procedimentos:** Foto comparativa real (Antes e Depois) demonstrando o resultado das extensões de Mega Hair.
+- **Card 3 - Localização:** Card focado no espaço de atendimento e localização exclusiva com direcionamento para o WhatsApp / Mapa.
+- **Banner Inferior:** Foto em destaque com ferramenta e mechas de extensões e frase elegante ("*Será um prazer cuidar da sua beleza!*").
 - **Rodapé:** Ícones de contato e redes sociais (Localização, WhatsApp e Instagram).
 
 ---
@@ -40,3 +40,4 @@ Todos os botões encaminham automaticamente para o WhatsApp com mensagens pré-c
 - **CSS3 Moderno:** Glassmorphism (efeito vidro escuro fosco), gradientes sutis, animações suaves e ambient glow para desktop.
 - **JavaScript Puro (Vanilla JS):** Leve, sem dependências externas, scroll suave e animações escalonadas.
 - **Google Fonts:** `Cormorant Garamond` (serifa de luxo) e `Plus Jakarta Sans` (sans-serif moderna).
+

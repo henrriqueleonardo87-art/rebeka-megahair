@@ -128,7 +128,7 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center 15%;
+  object-position: center 22%;
   display: block;
   transform: scale(1.02);
   transition: transform 1.2s cubic-bezier(0.2, 0.8, 0.2, 1);
@@ -341,6 +341,23 @@ body {
   transition: transform 0.4s ease;
 }
 
+#card-agendamento .card-image-col img {
+  object-position: center top;
+}
+
+#card-procedimentos .card-image-col {
+  width: 102px;
+  height: 102px;
+}
+
+#card-procedimentos .card-image-col img {
+  object-position: center center;
+}
+
+#card-localizacao .card-image-col img {
+  object-position: center top;
+}
+
 .action-card:hover .card-image-col img {
   transform: scale(1.06);
 }
@@ -372,7 +389,7 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center 25%;
+  object-position: center 18%;
   display: block;
 }
 
@@ -493,3 +510,4 @@ body {
     font-size: 1.45rem;
   }
 }
+

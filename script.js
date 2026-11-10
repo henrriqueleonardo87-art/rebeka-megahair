@@ -12,6 +12,7 @@ const WHATSAPP_PHONE = '553399201219';
 const WHATSAPP_MESSAGES = {
   agendamento: 'Olá Rebeka! Gostaria de agendar um horário para Mega Hair.',
   procedimentos: 'Olá Rebeka! Gostaria de saber mais sobre os procedimentos e técnicas de Mega Hair.',
+  localizacao: 'Olá Rebeka! Gostaria de saber a localização e endereço do seu espaço.',
   aprenda: 'Olá Rebeka! Tenho interesse nos seus cursos e mentorias de Mega Hair. Pode me passar mais informações?',
   geral: 'Olá Rebeka! Vim pelo site e gostaria de tirar algumas dúvidas.'
 };
@@ -59,3 +60,4 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 });
+
