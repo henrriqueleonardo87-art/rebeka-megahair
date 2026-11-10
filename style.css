@@ -94,7 +94,7 @@ body {
   padding-bottom: 24px;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 500px) and (max-width: 899px) {
   body {
     padding: 24px 0;
   }
@@ -508,6 +508,231 @@ body {
   }
   .banner-quote {
     font-size: 1.45rem;
+  }
+}
+
+/* ==========================================================================
+   Desktop / PC Responsive Version (>= 900px)
+   ========================================================================== */
+@media (min-width: 900px) {
+  body {
+    padding: 40px 24px;
+    align-items: center;
+  }
+
+  .ambient-glow-top {
+    width: 950px;
+    height: 600px;
+    opacity: 0.35;
+  }
+
+  .ambient-glow-bottom {
+    width: 950px;
+    height: 500px;
+    opacity: 0.22;
+  }
+
+  .page-container {
+    max-width: 1120px;
+    border-radius: 36px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    overflow: hidden;
+    padding-bottom: 36px;
+    box-shadow: 0 25px 80px rgba(0, 0, 0, 0.75), 0 0 50px rgba(197, 168, 128, 0.05);
+  }
+
+  /* Hero: Elegant 2-Column Split Layout */
+  .hero-section {
+    display: grid;
+    grid-template-columns: 1.15fr 0.85fr;
+    align-items: center;
+    padding: 40px 50px 30px 50px;
+    gap: 40px;
+    text-align: left;
+  }
+
+  .hero-image-wrapper {
+    order: 2;
+    height: 520px;
+    border-radius: 28px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+  }
+
+  .hero-image {
+    object-position: center 25%;
+  }
+
+  .hero-gradient-overlay {
+    background: linear-gradient(
+      to top,
+      rgba(14, 14, 17, 0.55) 0%,
+      rgba(14, 14, 17, 0.1) 40%,
+      transparent 70%
+    );
+  }
+
+  .hero-content {
+    order: 1;
+    margin-top: 0;
+    padding: 0;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .hero-name {
+    font-size: 3.8rem;
+    line-height: 1.05;
+    text-align: left;
+    letter-spacing: 0.01em;
+  }
+
+  .hero-badge {
+    font-size: 0.88rem;
+    margin-top: 8px;
+    margin-bottom: 22px;
+    letter-spacing: 0.25em;
+  }
+
+  .hero-description {
+    font-size: 1.12rem;
+    line-height: 1.75;
+    max-width: 520px;
+    margin: 0;
+    color: #d1d1db;
+    text-align: left;
+  }
+
+  .scroll-down-btn {
+    margin-top: 32px;
+    align-self: flex-start;
+  }
+
+  /* Cards Section: Luxury 3-Column Grid */
+  .cards-section {
+    padding: 20px 50px 35px 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+
+  .action-card {
+    flex-direction: column !important;
+    align-items: stretch;
+    justify-content: flex-start;
+    padding: 24px;
+    gap: 18px;
+    border-radius: 26px;
+    height: 100%;
+  }
+
+  .action-card .card-image-col {
+    order: 1 !important;
+    width: 100% !important;
+    height: 220px !important;
+    border-radius: 18px;
+    margin-bottom: 4px;
+  }
+
+  #card-procedimentos .card-image-col {
+    width: 100% !important;
+    height: 220px !important;
+  }
+
+  .action-card .card-text-col {
+    order: 2 !important;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-width: 0;
+  }
+
+  .action-card .card-title {
+    font-size: 1.3rem;
+    margin-bottom: 8px;
+  }
+
+  .action-card .card-subtitle {
+    font-size: 0.88rem;
+    line-height: 1.55;
+    color: var(--text-secondary);
+    margin-bottom: 20px;
+    flex: 1;
+  }
+
+  .action-card .card-btn {
+    width: 100%;
+    padding: 10px 16px;
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+    justify-content: center;
+    border-radius: 999px;
+  }
+
+  /* Bottom Banner: Wide Cinematic Feature */
+  .banner-section {
+    padding: 10px 50px 30px 50px;
+  }
+
+  .banner-wrapper {
+    height: 400px;
+    border-radius: 28px;
+  }
+
+  .banner-image {
+    object-position: center 20%;
+  }
+
+  .banner-overlay {
+    background: linear-gradient(
+      to right,
+      rgba(14, 14, 17, 0.1) 0%,
+      rgba(14, 14, 17, 0.45) 40%,
+      rgba(14, 14, 17, 0.92) 80%,
+      var(--bg-primary) 100%
+    );
+  }
+
+  .banner-content {
+    bottom: 50px;
+    right: 50px;
+    left: auto;
+    max-width: 520px;
+    text-align: right;
+  }
+
+  .banner-quote {
+    font-size: 2.8rem;
+    line-height: 1.2;
+    margin-bottom: 12px;
+  }
+
+  .banner-author {
+    font-size: 0.82rem;
+    letter-spacing: 0.22em;
+  }
+
+  /* Footer: Roomy Desktop Arrangement */
+  .footer-section {
+    padding: 15px 50px 30px 50px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .social-icons {
+    gap: 16px;
+  }
+
+  .social-btn {
+    width: 48px;
+    height: 48px;
+  }
+
+  .footer-copy {
+    text-align: right;
+    font-size: 0.8rem;
   }
 }
 
